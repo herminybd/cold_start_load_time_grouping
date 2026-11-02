@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "herminybd-kernelopt_jd040"
+name = "herminybd-cold_start_load_time_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出AI 芯片算子优化工程师·冷启动与模型加载时间上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://herminybd.github.io"
-Repository = "https://github.com/herminybd/kernelopt_jd040"
-Issues = "https://github.com/herminybd/kernelopt_jd040/issues"
+Repository = "https://github.com/herminybd/cold_start_load_time_grouping"
+Issues = "https://github.com/herminybd/cold_start_load_time_grouping/issues"
 
 [project.scripts]
-kernelopt_jd040 = "kernelopt_jd040:main"
+cold_start_load_time_grouping = "cold_start_load_time_grouping:main"
 
 [tool.setuptools]
-py-modules = ["kernelopt_jd040"]
+py-modules = ["cold_start_load_time_grouping"]
